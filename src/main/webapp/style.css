@@ -1,11 +1,23 @@
 @charset "UTF-8";
-
-#heading{
-	color: blue;
-	
+*{
+	background-color: rgb(6, 6, 6);
+	color: white;
 }
 
 .division{
-	padding-top: 100px;
+	padding-top: 10%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+#btn{
+	background-color: rgb(255, 255, 255);
+	color:rgb(0, 0, 0);
 	
+}
+
+h1{
+	color:rgb(255, 255, 255);
+	weight: 700;
 }
